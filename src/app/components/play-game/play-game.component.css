@@ -1,0 +1,23 @@
+.game {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#drawing {
+    font-size : 30px;
+    margin-bottom: 10px;
+}
+
+.countdown {
+    margin-bottom: 5px;
+    border: 3px solid #000;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 25px;
+    float: left;
+    margin-left: 40px;
+}
+
+.playbutton {
+    margin-bottom: 20px;
+}

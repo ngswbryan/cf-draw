@@ -1,0 +1,5 @@
+<button type="button" class="btn btn-dark playbutton" (click)="randomGame()">Play Game!</button>
+<div class="alert alert-dark" id="drawing" #drawing>Click on the Play Game! button to generate an object to draw! You have 30 seconds!</div>
+<countdown [config]="{leftTime: 30}" (finished)="onFinished()" class="countdown" #cd1>$!m!:$!s!</countdown>
+<app-canvas [timerFinished]="getBoolean()"></app-canvas>
+
